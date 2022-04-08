@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MobileHW1_NivShalom</string>
+    <string name="down_btn_label">down</string>
+    <string name="left_btn_label">left</string>
+    <string name="right_btn_label">right</string>
+    <string name="up_btn_label">up</string>
+    <string name="score_text_label">Score: %1$d</string>
+    <string name="lives_text_label">Lives: %1$d</string>
+</resources>
