@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     private static final Handler game_clock = new Handler();
     private static final Random rand = new Random();
 
-    private static final int grid_width = 5;
-    private static final int grid_height = 8;
+    private static final int grid_width = 3;
+    private static final int grid_height = 5;
     private static int lives = 3;
 
     private final ImageView[][] grid = new ImageView[grid_width][grid_height];
@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
     {
         if (hunter_pos[0] == wolf_pos[0] && hunter_pos[1] == wolf_pos[1])
         {
-            if (--lives == 0)
+            if (lives-- == 0)
             {
                 finish();
                 System.exit(0);
