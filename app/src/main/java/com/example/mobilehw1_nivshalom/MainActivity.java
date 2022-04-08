@@ -187,7 +187,7 @@ public class MainActivity extends AppCompatActivity {
     {
         if (hunter_pos[0] == wolf_pos[0] && hunter_pos[1] == wolf_pos[1])
         {
-            if (lives-- == 0)
+            if (lives-- == 1)
             {
                 finish();
                 System.exit(0);
